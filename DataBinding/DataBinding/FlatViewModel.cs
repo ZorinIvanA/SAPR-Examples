@@ -10,8 +10,8 @@ namespace DataBinding
     {
         public String Adress { get; set; }
         public String Number { get; set; }
-        public Double Price { get; set; }
-        public Int32 Area { get; set; }
+        public Decimal Price { get; set; }
+        public UInt32 Area { get; set; }
         public String SubwayStation { get; set; }
     }
 }

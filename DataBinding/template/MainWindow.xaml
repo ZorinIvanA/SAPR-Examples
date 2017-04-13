@@ -1,0 +1,28 @@
+﻿<Window x:Class="Template.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Template"
+        mc:Ignorable="d" 
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel >
+            <Button Width="100" Height="50" Style="{StaticResource ButtonStyle}">Кнопко 2</Button>
+        </StackPanel>
+        <TextBlock Style="{StaticResource tbStyle}">Наведи мышку</TextBlock>
+        <local:SpinButton Value="{Binding Something}"></local:SpinButton>
+    </Grid>
+    
+</Window>

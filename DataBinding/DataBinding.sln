@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\DataBinding.csproj", "{28CC3C26-7AB8-496D-B284-31E2F9C1D0CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandox\Sandbox.csproj", "{4A3E4E84-25B5-4688-B9FF-26B16440BCB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "template\Template.csproj", "{E92D90A1-FF8D-4D28-B377-20D6C5B154E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{28CC3C26-7AB8-496D-B284-31E2F9C1D0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28CC3C26-7AB8-496D-B284-31E2F9C1D0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28CC3C26-7AB8-496D-B284-31E2F9C1D0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3E4E84-25B5-4688-B9FF-26B16440BCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3E4E84-25B5-4688-B9FF-26B16440BCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3E4E84-25B5-4688-B9FF-26B16440BCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3E4E84-25B5-4688-B9FF-26B16440BCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92D90A1-FF8D-4D28-B377-20D6C5B154E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92D90A1-FF8D-4D28-B377-20D6C5B154E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92D90A1-FF8D-4D28-B377-20D6C5B154E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92D90A1-FF8D-4D28-B377-20D6C5B154E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

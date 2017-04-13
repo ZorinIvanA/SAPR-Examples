@@ -12,11 +12,19 @@ namespace DataBinding
 {
     public class MainWindowViewModel : INotifyPropertyChanged
     {
-        public Double PriceMin { get; set; }
-        public Double PriceMax { get; set; }
+        public Decimal PriceMin { get; set; }
+        public Decimal? PriceMax { get; set; }
 
-        public Int32 AreaMin { get; set; }
-        public Int32 AreaMax { get; set; }
+        private UInt32 _areaMin;
+        public UInt32 AreaMin {
+            get { return _areaMin; }
+            set
+            {
+                _areaMin = value;
+                DoPropertyChanged("AreaMin");
+            }
+        }
+        public UInt32? AreaMax { get; set; }
 
         public Dictionary<String, Color> MetroStations { get; set; }
 
